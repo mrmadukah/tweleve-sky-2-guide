@@ -1,0 +1,18 @@
+body {
+    background-color: #252525;
+}
+
+.title {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: sans-serif;
+    border-style: outset;
+    border-color: #ffe600;
+    border-width: 10px;
+    border-radius: 10px;
+}
+
+.headings {
+    text-align: center;
+}
+
