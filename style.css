@@ -14,5 +14,23 @@ body {
 
 .headings {
     text-align: center;
+    background-color: #ffe600;
+}
+
+.sidebar {
+  margin: 0;
+  margin-right: 100px;
+  padding: 0;
+  width: 200px;
+  background-color: #b46666;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: auto;
 }
 
