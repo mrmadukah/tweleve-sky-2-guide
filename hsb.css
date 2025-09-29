@@ -83,6 +83,10 @@ html, body {
 .welcome-box {
   background: #8b5b5b;
   height: 600px;
+
+}
+
+.centered-text {
   text-align: center;       /* Centers text horizontally */
   display: flex;            /* Enables flexbox */
   justify-content: center;  /* Centers horizontally (for flex children) */
