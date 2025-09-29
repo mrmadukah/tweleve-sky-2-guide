@@ -9,7 +9,7 @@ html, body {
 
 .content-container {
   width: 90%;
-  max-width: 2200px;
+  max-width: 1975px;
   margin: 0 auto;     
   background: #fff;
   min-height: 100vh;
@@ -24,7 +24,7 @@ html, body {
   align-items: center;
   border: solid;
   font-size: 24px;
-  height: 100px;
+  height: 80px;
   padding: 0 20px ;
   
   
@@ -55,21 +55,36 @@ html, body {
 }
 
 .image-background {
-    background-image: url(assets/c4f400b47a629afe7495d17a449aa4d7b0ce8688-2000x608.avif);
+    background-image: url(assets/12-sky-2-29-fullsize.jpg);
     height: 700px;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    object-fit: contain;
     background-size: contain;
+    
 }
 
-.centered-text {
+.landing-text {
     position: absolute;
     top: 30%;
     left: 15%;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
     color: #ffffff;
+    
 }
 
+.text {
+    font-size: 25px;
+    color: #ffffff;
+    font-family: sans-serif;
+    
+}
 
+.welcome-box {
+  background: #8b5b5b;
+  height: 600px;
+  text-align: center;       /* Centers text horizontally */
+  display: flex;            /* Enables flexbox */
+  justify-content: center;  /* Centers horizontally (for flex children) */
+  align-items: center;      /* Centers vertically (for flex children) */
+}
