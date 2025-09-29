@@ -55,7 +55,7 @@ html, body {
 }
 
 .image-background {
-    background-image: url(assets/12-sky-2-29-fullsize.jpg);
+    background-image: url(assets/zootts2.png);
     height: 700px;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -80,15 +80,19 @@ html, body {
     
 }
 
+.text h2 {
+    font-size: 25px;
+    color: #000000;
+    font-family: sans-serif;
+}
+
 .welcome-box {
-  background: #8b5b5b;
+  background: #ffffff;
   height: 600px;
-
+  text-align: center;       
+  display: flex;           
+  justify-content: center;  
+  align-items: center;      
+  border: solid;
 }
 
-.centered-text {
-  text-align: center;       /* Centers text horizontally */
-  display: flex;            /* Enables flexbox */
-  justify-content: center;  /* Centers horizontally (for flex children) */
-  align-items: center;      /* Centers vertically (for flex children) */
-}
